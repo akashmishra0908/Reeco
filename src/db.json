@@ -1,0 +1,124 @@
+{
+  "products": [
+    {
+      "id":1,
+      "name":"T-Shirt",
+      "status":"",
+      "price":450,
+      "quantity":8
+
+    },
+    {
+      "id":2,
+      "name":"Shirt",
+      "status":"",
+      "price":676,
+      "quantity":3
+
+    },
+    {
+      "id":3,
+      "name":"Shirt",
+      "status":"",
+      "price":154,
+      "quantity":4
+
+    },
+    {
+      "id":4,
+      "name":"Shoes",
+      "status":"",
+      "price":789,
+      "quantity":1
+
+    },
+    {
+      "id":5,
+      "name":"Foot-wear",
+      "status":"",
+      "price":365,
+      "quantity":9
+
+    },
+    {
+      "id":6,
+      "name":"Jeans",
+      "status":"",
+      "price":786,
+      "quantity":3
+
+    },
+    {
+      "id":7,
+      "name":"Men's Paint",
+      "status":"",
+      "price":234,
+      "quantity":5
+
+    },
+    {
+      "id":8,
+      "name":"T-Shirt",
+      "status":"",
+      "price":457,
+      "quantity":2
+
+    },
+    {
+      "id":9,
+      "name":"Shoes",
+      "status":"",
+      "price":786,
+      "quantity":3
+
+    },
+    {
+      "id":10,
+      "name":"T-Shirt",
+      "status":"",
+      "price":342,
+      "quantity":5
+
+    },
+    {
+      "id":11,
+      "name":"Foot-wear",
+      "status":"",
+      "price":834,
+      "quantity":5
+
+    },
+    {
+      "id":12,
+      "name":"Shoes",
+      "status":"",
+      "price":253,
+      "quantity":7
+
+    },
+    {
+      "id":13,
+      "name":"Shirt",
+      "status":"",
+      "price":765,
+      "quantity":2
+
+    },
+    {
+      "id":14,
+      "name":"T-Shirt",
+      "status":"",
+      "price":253,
+      "quantity":9
+
+    },
+    {
+      "id":15,
+      "name":"Shirt",
+      "status":"",
+      "price":450,
+      "quantity":2
+
+    }
+  ]
+}
