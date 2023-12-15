@@ -43,23 +43,9 @@ export const reducer = (state = initialState, action) => {
         ...state,
         products: state.products.map(product =>
           product.id === action.payload.productId
-            ? { ...product, status: action.payload.urgent ? 'Missing  Urgent' : 'Missing' }
+            ? { ...product, status: action.payload.status ? 'Missing  Urgent' : 'Missing' }
             : product
         ),
-      };
-
-    case OPEN_EDIT_POPUP:
-      return {
-        ...state,
-        selectedProductId: action.payload.productId,
-        isEditPopupOpen: true,
-      };
-
-    case CLOSE_POPUP:
-      return {
-        ...state,
-        selectedProductId: null,
-        isEditPopupOpen: false,
       };
 
     case UPDATE_PRODUCT:
