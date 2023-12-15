@@ -30,6 +30,7 @@ const EditModal = ({
         <select value={selectedReason} onChange={(e) => onSelectReason(e.target.value)}>
           <option value="">Select a reason</option>
           <option value="reason1">Missing Product </option>
+          <option value="reason1">Price is not the same </option>
           <option value="reason2">Other</option>
         </select>
       </label>
