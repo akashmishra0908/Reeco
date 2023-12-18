@@ -6,7 +6,7 @@ export const getProducts = (paramObj) => async (dispatch) => {
 
   try {
     
-   const res=await axios.get("http://localhost:8080/products");
+   const res=await axios.get("https://reeco-server-k6k5.onrender.com/products");
    console.log("Response:", res); 
    dispatch({ type: GET_PRODUCT_SUCCESS, payload: res.data})
   } catch (error) {
@@ -17,7 +17,7 @@ export const getProducts = (paramObj) => async (dispatch) => {
 
 export const approveProduct = (productId) => async (dispatch) => {
   try {
-    await axios.patch(`http://localhost:8080/products/${productId}`, { status: 'Approved' });
+    await axios.patch(`https://reeco-server-k6k5.onrender.com/products/${productId}`, { status: 'Approved' });
     dispatch({ type: APPROVE_PRODUCT, payload: { productId } });
   } catch (error) {
     console.error('Error approving product:', error);
@@ -27,7 +27,7 @@ export const approveProduct = (productId) => async (dispatch) => {
 export const markMissing = (productId, urgent) => async (dispatch) => {
   try {
     const status = urgent ? 'Missing Urgent' : 'Missing';
-    await axios.patch(`http://localhost:8080/products/${productId}`, { status });
+    await axios.patch(`https://reeco-server-k6k5.onrender.com/products/${productId}`, { status });
     dispatch({ type: MARK_MISSING, payload: { productId, urgent } });
   } catch (error) {
     console.error('Error marking as missing:', error);
@@ -50,7 +50,7 @@ export const updateProductSuccess = (productId, price, quantity, reason) => ({
 export const updateProduct = (productId, price, quantity, reason) => async (dispatch) => {
   try {
     
-    const res = await axios.patch(`http://localhost:8080/products/${productId}`, {
+    const res = await axios.patch(`https://reeco-server-k6k5.onrender.com/products/${productId}`, {
       price,
       quantity,
       reason,
