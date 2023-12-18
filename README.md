@@ -1,58 +1,87 @@
-Reeco Frontend Developer Assignment
+# Reeco Frontend Developer Assignment
+
 Welcome to the Reeco Frontend Developer Assignment! This project is a React application built with Redux, showcasing an order management system.
 
-Table of Contents
-Demo
-Features
-Prerequisites
-Getting Started
-Folder Structure
-Dependencies
-Optional Features
-Contact
-Demo
-Check out the deployed project: Reeco Web App
+## Table of Contents
 
-Features
-View detailed information about an order.
-Update the status of each product.
-Approve products or mark them as missing.
-Edit product details (Optional).
-Responsive and stylish design.
-Prerequisites
-Node.js installed on your machine.
-Git installed on your machine.
-GitHub account.
-Getting Started
-Clone the repository:
+- [Demo](#demo)
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Getting Started](#getting-started)
+- [Folder Structure](#folder-structure)
+- [Dependencies](#dependencies)
+- [Optional Features](#optional-features)
+- [Contact](#contact)
 
-git clone https://github.com/akashmishra0908/Reeco.git
-Navigate to the project directory:
+## Demo
 
-cd Reeco
-Install dependencies:
+Check out the deployed project: [Reeco Web App](https://reeco-akashs-projects-82ab3047.vercel.app//)
 
-npm install
-Run the development server:
+## Features
 
-npm start
-Open your browser and visit http://localhost:3000 to view the app.
+- View detailed information about an order.
+- Update the status of each product.
+- Approve products or mark them as missing.
+- Edit product details (Optional).
+- Responsive and stylish design.
 
-Folder Structure
+## Prerequisites
+
+- Node.js installed on your machine.
+- Git installed on your machine.
+- GitHub account.
+
+## Getting Started
+
+1. Clone the repository:
+
+   bash
+   git clone https://github.com/akashmishra0908/Reeco/tree/master.git
+   
+
+2. Navigate to the project directory:
+
+   bash
+   cd Reeco
+   
+
+3. Install dependencies:
+
+   bash
+   npm install
+   
+
+4. Run the development server:
+
+   bash
+   npm start
+   
+
+5. Open your browser and visit [http://localhost:3000](http://localhost:3000) to view the app.
+
+## Folder Structure
+
 The project structure is organized for better readability and scalability:
 
-public: Contains the public assets and HTML file.
-src: Contains the React components, Redux store, styles, and additional files.
-Dependencies
-React
-Redux Toolkit
-Chakra UI
-React Router
-Styled Components (Optional)
-Optional Features
-Styled Components: The project supports styled-components for enhanced styling.
-Contact
+- public: Contains the public assets and HTML file.
+- src: Contains the React components, Redux store, styles, and additional files.
+
+## Dependencies
+
+- React
+- Redux Toolkit
+- Chakra UI
+- React Router
+- Styled Components (Optional)
+
+## Optional Features
+
+- Styled Components: The project supports styled-components for enhanced styling.
+
+## Contact
+
 Feel free to reach out for any questions or clarifications:
 
-Name: Akash Mishra
-Email: m.official0908@gmail.com;
+- *Name:* Akash Mishra
+- *Email:* m.official0908@gmail.com
+- *LinkedIn:* [LinkedIn Profile](https://www.linkedin.com/in/akash-mishra-a0955521a/)
